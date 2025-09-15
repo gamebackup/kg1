@@ -84,10 +84,10 @@
         ]).then(([wasmUrl]) => {
             container.hidden = false;
             var buildUrl = "Build";
-            var loaderUrl = buildUrl + "/Build.loader.js";
+            var loaderUrl = buildUrl + "https://cdn.jsdelivr.net/gh/gamebackup/kg1@refs/heads/main/build/Build.loader.js";
             var config = {
-                dataUrl: buildUrl + '/Build.data',
-                frameworkUrl: buildUrl + "/Build.framework.js",
+                dataUrl: buildUrl + 'https://cdn.jsdelivr.net/gh/gamebackup/kg1@refs/heads/main/build/Build.data',
+                frameworkUrl: buildUrl + "https://cdn.jsdelivr.net/gh/gamebackup/kg1@refs/heads/main/build/Build.framework.js",
                 codeUrl: wasmUrl,
                 streamingAssetsUrl: "StreamingAssets",
                 companyName: "SmashGames",
